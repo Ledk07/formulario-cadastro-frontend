@@ -44,7 +44,7 @@ export default function Auth() {
   return (
     <div style={{ maxWidth: '400px', margin: '40px auto', padding: '24px', border: '1px solid #334155', borderRadius: '8px', color: '#fff', backgroundColor: '#1e293b', fontFamily: 'sans-serif' }}>
       <h2>{isLogin ? 'Conecte-se' : 'Cadastre-se'}</h2>
-      
+
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
         {!isLogin && (
           <div>
@@ -98,7 +98,7 @@ export default function Auth() {
           </div>
         )}
 
-        <button type="submit" style={{ padding: '12px', backgroundColor: '#2563eb', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold', marginTop: '8px' }}>
+        <button type="submit" style={{ padding: '12px', backgroundColor: 'green', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold', marginTop: '8px' }}>
           {isLogin ? 'Entrar' : 'Cadastrar'}
         </button>
       </form>
