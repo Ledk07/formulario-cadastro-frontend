@@ -43,7 +43,7 @@ export default function Auth() {
 
   return (
     <div style={{ maxWidth: '400px', margin: '40px auto', padding: '24px', border: '1px solid #334155', borderRadius: '8px', color: '#fff', backgroundColor: '#1e293b', fontFamily: 'sans-serif' }}>
-      <h2>{isLogin ? 'Conecte-se' : 'Cadastre-se'}</h2>
+      <h2>{isLogin ? 'Faça login aqui' : 'Cadastre-se'}</h2>
 
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
         {!isLogin && (
